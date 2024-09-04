@@ -5,9 +5,15 @@ nav {
   align-items: center;
   padding: 44px 96px;
   place-self: flex-start;
+  @media (min-width: $breakpoint-phone) {
+    padding: 20px;
+  }
   img {
     width: 240px;
     height: auto;
+    @media (min-width: $breakpoint-phone) {
+      width: 146px;
+    }
   }
   ul {
     display: flex;
@@ -16,6 +22,10 @@ nav {
     gap: 60px;
     font-size: 24px;
     font-weight: 500;
+    @media (min-width: $breakpoint-phone) {
+      gap: 24px;
+      font-size: 1em;
+    }
   }
 }
 

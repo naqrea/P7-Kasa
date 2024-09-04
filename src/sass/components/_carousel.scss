@@ -2,7 +2,10 @@
   width: 1240px;
   height: 415px;
   position: relative;
-
+  @media (min-width: $breakpoint-phone) {
+    width: 90%;
+    height: 320px;
+  }
   .carousel-cover {
     object-fit: cover;
     width: 100%;

@@ -11,6 +11,8 @@ footer {
   padding: 32px;
   height: 200px;
   place-self: flex-end;
+  @media (min-width: $breakpoint-phone) {
+  }
   img {
     position: absolute;
     top: 50%;
@@ -18,5 +20,8 @@ footer {
     transform: translate(-50%, -50%);
     width: 122px;
     height: auto;
+    @media (min-width: $breakpoint-phone) {
+      position: initial;
+    }
   }
 }

@@ -8,4 +8,7 @@
   padding: 2rem;
   max-width: 1200px;
   margin: 2em auto;
+  @media (min-width: $breakpoint-phone) {
+    grid-template-columns: 1fr;
+  }
 }
