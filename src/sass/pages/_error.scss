@@ -1,0 +1,28 @@
+.error {
+  .error-content {
+    padding: 140px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $color-red;
+    font-family: $font-main;
+    width: 100%;
+    gap: 140px;
+    h1 {
+      font-size: 288px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 36px;
+      font-weight: 400;
+    }
+
+    .link {
+      color: $color-black;
+      font-size: 18px;
+      font-weight: 500;
+      text-decoration: underline;
+    }
+  }
+}

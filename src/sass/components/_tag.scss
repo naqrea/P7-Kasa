@@ -1,0 +1,11 @@
+.tag {
+  font-family: $font-main;
+  color: $color-white;
+  background-color: $color-red;
+  min-width: 114px;
+  height: fit-content;
+  text-align: center;
+  border-radius: $border-radius-large;
+  font-size: 14px;
+  padding: 0.5rem;
+}

@@ -1,0 +1,41 @@
+.collapse {
+  width: 100%;
+  .collapse-header {
+    border-radius: $border-radius-small;
+    height: 2em;
+    background-color: $color-red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+  }
+  h2 {
+    font-family: $font-main;
+    font-size: 1.25em;
+    color: $color-white;
+    font-weight: bold;
+  }
+  .chevron-down {
+    transition: all 0.3s ease-in-out;
+    width: 1.5rem;
+    height: auto;
+  }
+  .chevron-up {
+    transition: all 0.3s ease-in-out;
+    width: 1.5rem;
+    height: auto;
+    rotate: 180deg;
+  }
+  .collapse-content {
+    font-family: $font-main;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease-out;
+  }
+
+  .collapse-open {
+    background-color: $color-grey;
+    max-height: 96px;
+    padding: 1em;
+  }
+}

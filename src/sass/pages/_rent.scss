@@ -1,0 +1,45 @@
+.rent-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  .header {
+    display: flex;
+    width: 1240px;
+    flex-direction: row;
+    justify-content: space-between;
+    .title {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      h1 {
+        color: $color-red;
+        font-family: $font-main;
+        font-size: 36px;
+      }
+      p {
+        font-family: $font-main;
+        font-size: 18px;
+      }
+    }
+  }
+  .tags-and-rating {
+    display: flex;
+    flex-direction: row;
+    width: 1240px;
+    justify-content: space-between;
+    .tags {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+    }
+  }
+  .collapses {
+    width: 1240px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}

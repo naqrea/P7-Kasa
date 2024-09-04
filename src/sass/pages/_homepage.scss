@@ -1,0 +1,11 @@
+.rentthumb-box {
+  background-color: $color-grey;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 2em auto;
+}
