@@ -8,7 +8,7 @@
   align-items: center;
   border-radius: $border-radius-large;
   margin: 0 auto;
-  @media (min-width: $breakpoint-phone) {
+  @media screen and (min-width: $breakpoint-phone) and (max-width: $breakpoint-tablet) {
     width: 90%;
     height: 144px;
     margin-top: 1em;
@@ -42,7 +42,7 @@
     margin: 0;
     color: $color-white;
     z-index: 1;
-    @media (min-width: $breakpoint-phone) {
+    @media screen and (min-width: $breakpoint-phone) and (max-width: $breakpoint-tablet) {
       font-size: 2rem;
       width: 80%;
     }

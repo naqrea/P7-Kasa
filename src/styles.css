@@ -148,7 +148,7 @@ a {
   border-radius: 25px;
   margin: 0 auto;
 }
-@media (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .banner {
     width: 90%;
     height: 144px;
@@ -181,7 +181,7 @@ a {
   color: #ffffff;
   z-index: 1;
 }
-@media (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .banner h1 {
     font-size: 2rem;
     width: 80%;
@@ -433,6 +433,11 @@ nav ul {
   gap: 2em;
   padding: 3.5em 0;
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .about .collapse-box {
+    margin: 0 1rem;
+  }
+}
 
 .error .error-content {
   padding: 140px 0;
@@ -471,7 +476,7 @@ nav ul {
   max-width: 1200px;
   margin: 2em auto;
 }
-@media (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .rentthumb-box {
     grid-template-columns: 1fr;
   }

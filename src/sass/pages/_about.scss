@@ -6,5 +6,8 @@
     flex-direction: column;
     gap: 2em;
     padding: 3.5em 0;
+    @media screen and (min-width: $breakpoint-phone) and (max-width: $breakpoint-tablet) {
+      margin: 0 1rem;
+    }
   }
 }
