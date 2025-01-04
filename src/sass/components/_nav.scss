@@ -1,11 +1,8 @@
 nav {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 44px 96px;
-  place-self: flex-start;
-  width: 100%;
+
   @media (min-width: $breakpoint-phone) {
     padding: 20px;
   }
